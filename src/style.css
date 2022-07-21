@@ -1,0 +1,95 @@
+:root {
+  --primary-color: cadetblue;
+  --secondary-color: darkseagreen;
+  --accent-color: darkslategray;
+  --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  margin: 5px;
+  font-size: 96px;
+}
+
+h2 {
+  margin: 5px;
+  font-size: 48px;
+}
+
+h3 {
+  margin: 5px 5px 30px;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.app-button {
+  background-color: var(--primary-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.app-button:hover {
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-button {
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 20px;
+}
+
+.about-button:visited {
+  color: var(--primary-color);
+}
+
+.contact-button {
+  background-color: var(--primary-color);
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+}
+
+.contact-button:visited {
+  color: white;
+}
+
+.container-body {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.email {
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--primary-color);
+}
+
+.email:hover {
+  text-decoration: underline;
+}
