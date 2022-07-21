@@ -15,19 +15,15 @@
   }
 
   .main-title {
-    font-size: 42px;
+    font-size: 48px;
   }
 
   .introduction {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   #contact {
-    font-size: 30px;
-  }
-
-  .email {
-    font-size: 26px;
+    font-size: 36px;
   }
 }
 
