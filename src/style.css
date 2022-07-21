@@ -21,6 +21,14 @@
   .introduction {
     font-size: 30px;
   }
+
+  #contact {
+    font-size: 30px;
+  }
+
+  .email {
+    font-size: 26px;
+  }
 }
 
 header {
@@ -114,4 +122,8 @@ p {
 
 .email:hover {
   text-decoration: underline;
+}
+
+.footer {
+  margin-bottom: 30px;
 }
