@@ -5,6 +5,16 @@
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 415px) {
+  #home-photo {
+    display: none;
+  }
+
+  .container {
+    text-align: center;
+  }
+}
+
 header {
   text-align: center;
   margin-top: 40px;
@@ -77,6 +87,10 @@ p {
 
 .contact-button:visited {
   color: white;
+}
+
+.container {
+  margin-bottom: 50px;
 }
 
 .container-body {
